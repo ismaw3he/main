@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.back_ground {/*background image, it's height and position*/
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/* Text position and color */
+.center_text {
+  background-color: rgba(0,0,0, 0.4); /* see-through */
+  color: red;
+  font-weight: bold;
+  border: 5px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
