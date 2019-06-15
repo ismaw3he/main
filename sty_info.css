@@ -19,11 +19,15 @@ img {/*rounded image*/
   background-size: cover;
 }
 p{
+  
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
   padding: 20px;
-  font-size: 20px;
-  color: #ba2121;
-  border-radius: 50%;
-  position:absolute;
-  top:35%;
-  left: 25%;
+  text-align: center;
 }
